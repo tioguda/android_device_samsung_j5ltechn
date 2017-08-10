@@ -1,3 +1,1 @@
-for i in eng userdebug user; do
-	add_lunch_combo lineage_j5ltechn-${i}
-done
+add_lunch_combo tesla_j5ltechn-userdebug

@@ -1,3 +1,8 @@
+PRODUCT_PROPERTY_OVERRIDES := \
+    ro.ota.romname=Tesla-j5ltechn \
+    ro.ota.version=$(shell date +%F%H | sed s@-@@g) \
+    ro.ota.manifest=https://basketbuild.com/uploads/devs/tioguda/Tesla/j5ltechn/7.1.2/j5ltechn.xml
+
 #Inherit from vendor
 $(call inherit-product-if-exists, vendor/samsung/j5ltechn/j5ltechn-vendor.mk)
 
