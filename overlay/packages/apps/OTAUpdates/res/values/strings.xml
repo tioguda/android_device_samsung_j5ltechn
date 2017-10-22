@@ -16,5 +16,5 @@
 -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App Strings -->
-    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/tioguda/Changelog/master/Validus/j5ltechn/Changelog.txt</string>
+    <string name="changelog_rom" translatable="false">https://raw.githubusercontent.com/tioguda/Changelog/master/Validus/j5ltechn/Changelog.txt</string>
 </resources>
